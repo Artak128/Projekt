@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+    height: 80vh;
+    width: 70%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    flex-direction: column;
+}
+
+.menu button {
+    padding: 15px;
+    background-color: #007ACCFF;
+    color: aliceblue;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.game p {
+ width: 22%;
+ height: 22%;
+ background-color: #007ACCFF;
+ margin: 5px;
+ border-radius: 15px;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ -ms-border-radius: 15px;
+ -o-border-radius: 15px;
+ text-align: center;
+ padding: 25px;
+ font-size: 35px;
+}
+
+.hidden {
+    display: none;
+}
+
+.border {
+    border: 3px solid red;
+}
+
+tr th {
+    border: 1px solid #007ACCFF;
+    padding: 35px;
+    
+}
